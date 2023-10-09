@@ -1,3 +1,5 @@
 # Ignore CSV files
 *.csv
 *.xlsx
+/Sample codes
+.idea
