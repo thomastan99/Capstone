@@ -3,3 +3,5 @@
 *.xlsx
 /Sample codes
 .idea
+*.pkl
+
