@@ -1,5 +1,0 @@
-pycox==0.2.3
-numpy==1.23.5
-numba==0.57.1
-torch==2.0.1
-pandas==1.4.4
