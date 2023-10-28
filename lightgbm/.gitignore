@@ -1,2 +1,3 @@
-# Ignore pkl files
+# Ignore pkl and csv files
 *.pkl
+*.csv
