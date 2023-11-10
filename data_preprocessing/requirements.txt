@@ -1,2 +1,0 @@
-pandas==1.4.4
-pandarallel==1.6.5
