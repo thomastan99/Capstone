@@ -2,7 +2,6 @@
 *.csv
 *.pkl
 *.xlsx
-/Sample codes
-.idea
 *.pkl
+token.json
 
