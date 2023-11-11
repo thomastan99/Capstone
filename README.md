@@ -47,10 +47,10 @@ We have tried different combinations of dataset for lightgbm model and compare t
 2) cri + compustat data (lightgbm_cri_compustat.ipynb)
 3) cri + compustat + yfinance data (lightgbm_yfinance.ipynb)
 4) industry relative ratio (extension from model 3)
-Model 1 yields AUC score of 0.893 and PRAUC score of 0.12
-***Model 2 yields the best AUC score of 0.971 and PRAUC score of 0.33***
-Model 3 yields AUC score of 0.951 and PRAUC score of 0.11
-Model 4 yields the best AUC score of 0.936 and PRAUC score of 0.06
+- Model 1 yields AUC score of 0.893 and PRAUC score of 0.12
+- ***Model 2 yields the best AUC score of 0.971 and PRAUC score of 0.33***
+- Model 3 yields AUC score of 0.951 and PRAUC score of 0.11
+- Model 4 yields the best AUC score of 0.936 and PRAUC score of 0.06
 
 **Pycox Discrete**
 
