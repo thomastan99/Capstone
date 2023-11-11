@@ -53,6 +53,8 @@ We have tried different combinations of dataset for lightgbm model and compare t
 - Model 4 yields the best AUC score of 0.936 and PRAUC score of 0.06
 
 **Pycox Discrete**
+We used the DeepHit model under this package and evaluated the performance based on AUC. 
+AUC score obtained was 0.676, indicating that the model performance is only slightly better than random chance. This can be found in file deephit_single.ipynb.
 
 **Scikit-survival**
 We used the Cox Proportional-Hazards (CoxPH) model under this package and evaluated the performance based on C-Index.
