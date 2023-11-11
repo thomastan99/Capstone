@@ -27,19 +27,19 @@ we have done data exploration to better understand and visualize our data under 
 
 **Data Imputation**
 Under the folder data_preprocessing, we clean up the data for each individual datasets 
-1. For CRI data, run the file CRI_data.ipynb 
+1) For CRI data, run the file CRI_data.ipynb 
     - cri_data will be created in gbq under the dataset capstone
-2. For Compustat data, run the file Compustat_data.ipynb
+2) For Compustat data, run the file Compustat_data.ipynb
     - compustat_data will be created in gbq under the dataset capstone
-3. For yFinance data, run the file yFinance_data.ipynb
+3) For yFinance data, run the file yFinance_data.ipynb
     - yfinance_cleaned will be created in gbq under the dataset capstone
 
 **Data Merging**
 Under the folder data_preprocessing,
 We merge the 3 datasets in the file data_merging.ipynb. The merged datasets are reflected as tables under the capstone dataset in GBQ. These tables can be used in the models later on. The 3 tables are named as such:
-    1. cri_data
-    2. cri_compustat_data
-    3. cri_compustat_yfinance_data
+1) cri_data
+2) cri_compustat_data
+3) cri_compustat_yfinance_data
 
 **Lightgbm**
 We have tried different combinations of dataset for lightgbm model and compare their AUC and PRAUC score 
