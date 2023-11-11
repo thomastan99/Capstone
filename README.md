@@ -37,9 +37,9 @@ Under the folder data_preprocessing, we clean up the data for each individual da
 **Data Merging**
 Under the folder data_preprocessing,
 We merge the 3 datasets in the file data_merging.ipynb. The merged datasets are reflected as tables under the capstone dataset in GBQ. These tables can be used in the models later on. The 3 tables are named as such:
-    - cri_data
-    - cri_compustat_data
-    - cri_compustat_yfinance_data
+    1. cri_data
+    2. cri_compustat_data
+    3. cri_compustat_yfinance_data
 
 **Lightgbm**
 We have tried different combinations of dataset for lightgbm model and compare their AUC and PRAUC score 
