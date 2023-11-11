@@ -62,6 +62,8 @@ C-Index obtained was 0.5, indicating that the model performance was no better th
 We used the Cox Proportional-Hazards (CoxPH) model under this package and evaluated the performance based on AUC, PRAUC and C-Index.
 The model yields AUC score of 0.936, PRAUC score of 0.0539 and C-Index of 0.93. This can be found in file lifeline.ipynb.
 
-**DeepSurv**
-
 **nelson-siegel**
+Uses nelson-siegel-svensson package to interpolate predicted probabilities of default for a company on a specific date. 
+1) Ensure that token.json is in the same directory to allow connection to GBQ table.
+2) Specify CompNo, year and month for which to plot curve and get a numpy array of the predicted probabilities for this combination
+3) Run plot_nelson_siegel with this numpy array as input
