@@ -23,6 +23,7 @@ This forecasting system aims to generate default probabilities for each listed p
 4. Grant billing for the project by adding a payment method.
 
 **Data Exploration**
+
 we have done data exploration to better understand and visualize our data under data_exploration/analysis.ipynb
 
 **Data Imputation**
